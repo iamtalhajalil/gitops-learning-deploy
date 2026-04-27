@@ -4,7 +4,7 @@ image:
   repository: ghcr.io/iamtalhajalil/gitops-learning-app
   pullPolicy: Always
   # We will start with 'latest', but in real GitOps, a CI tool updates this tag
-  tag: "e42a4ff"
+  tag: "678c531faa7b89ed8a58a51a4f8ded69d22b1339"
 
 service:
   type: NodePort
