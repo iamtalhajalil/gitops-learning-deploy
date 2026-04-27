@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/iamtalhajalil/gitops-learning-app
+  pullPolicy: Always
+  # We will start with 'latest', but in real GitOps, a CI tool updates this tag
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30080
